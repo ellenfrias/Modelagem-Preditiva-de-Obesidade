@@ -63,8 +63,8 @@ st.markdown("""
 # ─── Carregar modelo ──────────────────────────────────────────────────────────
 @st.cache_resource
 def load_model():
-    pipeline = joblib.load("models/modelo_obesidade.pkl")
-    with open("models/metadata.json") as f:
+    pipeline = joblib.load("modelo_obesidade.pkl")
+    with open("metadata.json") as f:
         meta = json.load(f)
     return pipeline, meta
 
