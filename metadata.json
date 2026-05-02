@@ -1,0 +1,13 @@
+{
+  "accuracy": 0.8852,
+  "f1_macro": 0.882,
+  "classes": [
+    "Insufficient_Weight",
+    "Normal_Weight",
+    "Obesity_Type_I",
+    "Obesity_Type_II",
+    "Obesity_Type_III",
+    "Overweight_Level_I",
+    "Overweight_Level_II"
+  ]
+}
